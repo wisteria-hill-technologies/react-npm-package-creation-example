@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import useActiveToggle from './hello-world-react-package-example/use-active-toggle';
 
 function App() {
+  const [isOn, setIsOn] = useActiveToggle();
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +19,7 @@ function App() {
         >
           Learn React
         </a>
+        <button onClick={() => setIsOn(isOn => !isOn)}>Is active {`${isOn}`}</button>
       </header>
     </div>
   );
