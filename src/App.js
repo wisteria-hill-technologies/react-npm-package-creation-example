@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import useActiveToggle from './hello-world-react-package-example/use-active-toggle';
+import useActiveToggle from 'hello-world-react-npm-package-example';
 
 function App() {
   const [isOn, setIsOn] = useActiveToggle();
