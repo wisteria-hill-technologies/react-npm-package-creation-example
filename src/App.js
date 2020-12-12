@@ -1,6 +1,7 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import useActiveToggle from 'hello-world-react-npm-package-example';
+import useActiveToggle, { HelloWorld } from 'hello-world-react-npm-package-example';
 
 function App() {
   const [isOn, setIsOn] = useActiveToggle();
@@ -19,6 +20,7 @@ function App() {
         >
           Learn React
         </a>
+        <HelloWorld name="Noby" />
         <button onClick={() => setIsOn(isOn => !isOn)}>Is active {`${isOn}`}</button>
       </header>
     </div>
