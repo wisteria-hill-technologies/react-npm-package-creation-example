@@ -17,7 +17,7 @@ var HelloWorld = function HelloWorld(_ref) {
   var name = _ref.name;
   return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("h1", {
     className: "myColor"
-  }, "Hello, ", name ? name : 'World', "!!"));
+  }, "Hello, ", name ? name : 'World', "!"));
 };
 
 exports.HelloWorld = HelloWorld;

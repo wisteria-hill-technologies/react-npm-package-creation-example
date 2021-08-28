@@ -6,7 +6,7 @@ import useActiveToggle from './use-active-toggle';
 export const HelloWorld = ({ name }) => {
   return (
     <div>
-      <h1 className="myColor">Hello, { name ? name : 'World' }!!</h1>
+      <h1 className="myColor">Hello, { name ? name : 'World' }!</h1>
     </div>
   );
 };

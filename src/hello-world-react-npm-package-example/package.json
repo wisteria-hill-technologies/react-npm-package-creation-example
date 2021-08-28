@@ -4,7 +4,8 @@
   "description": "hello-world-react-npm-package-example",
   "main": "lib/index.js",
   "scripts": {
-    "build": "babel src -d lib && cp ./src/*.css ./lib"
+    "build": "babel src -d lib && cp ./src/*.css ./lib",
+    "watch": "watch 'yarn run build'"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
     "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.10",
-    "@babel/preset-react": "^7.12.10"
+    "@babel/preset-react": "^7.12.10",
+    "watch": "^1.0.2"
   }
 }
